@@ -1,0 +1,85 @@
+body{
+    background:pink;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #logo{
+    width:7.5%;
+    height:7.5%;
+  }
+  #email{
+    display: flex;
+      justify-content: flex-start;
+   
+  }
+  section a{
+    font-size:25px;
+  }
+  #inst{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:10px;
+    margin-bottom:8px;
+  }
+  #whats{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:10px;
+    margin-bottom:8px;
+  }
+  #face{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:10px;
+    margin-bottom:8px;
+    position:relative;
+    bottom:820px;
+  }
+  div a {
+    color:mediumpurple;
+  }
+  .rabbit{
+    width:500px;
+    height:800px;
+    background-image:url("rabup.png");
+    background-repeat:no-repeat;
+    transition:65s;
+    position:relative;
+    left:600px;
+    bottom:400px;
+  
+    animation:rabbits 60s infinite;
+    animation-timing-function:ease;
+  }
+  @keyframes rabbits{
+    0%{
+      background-image:url("images/rabup.png");
+    }
+    10%{
+      background-image:url("images/rabsmile.png");
+    }
+    100%{
+      background-image:url("images/rabup.png");
+    }
+  }
+  #inst1{
+    margin-left: 30px;
+      padding-top: 33px;
+  }
+  #email1{
+    margin-left: 30px;
+      padding-top: 34px;
+  }
+  #whats1{
+    margin-left: 30px;
+      padding-top: 35px;
+  }
+  #face1{
+    margin-left: 30px;
+      padding-top: 36px;
+  }
+  #whats{
+    display: flex;
+      justify-content: flex-start;
+  }

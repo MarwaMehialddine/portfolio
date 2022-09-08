@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1{
+  padding-top:60px;
+  font-size:60px;
+  text-align:center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h2{
+    text-align:center;
+  }
+  h1,h2{
+    color:white;
+  }
+  #me{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    padding-left:110px;
+    padding-right:110px;
+  }
+  #hi{
+    text-align:center;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:55px;
+    font-size:40px;
+    
+    
+  }
+  img{
+    border-radius:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:340px;
+    width:450px;
+    padding-top:60px;
+    padding-bottom:60px;
+  }
+  .hey{
+    background-color:black;
+    height:500px;
+    width:100%;
+    border-radius:20px;
+  }
+  .projects{
+   background-color:white;
+    width:70%;
+    border-radius:20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #projects{
+    font-size:35px;
+    color:black;
+    font-weight:10px;
+    text-decoration:underline;
+  }
+  table{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr{
+    font-size:30px;
+  }
+  table,th,td{
+    font-size:30px;
+    border:1px solid black;
+    text-align:center;
+  }
+  tr td a {
+    color:mediumpurple;
+  }
+  th,td{
+     padding-right:28px;
+    padding-left:28px;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  th{
+    color:pink;
+  }
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url("images/piko.jpeg");
+    background-size:cover;
+    background-repeat: repeat-y;
+    background-position:center;
+  }
